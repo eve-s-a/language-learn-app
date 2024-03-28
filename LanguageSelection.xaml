@@ -1,0 +1,28 @@
+﻿<Window x:Class="Newproject.LanguageSelection"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Newproject"
+        mc:Ignorable="d"
+        Title="LanguageSelection" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="cyl" Content="Choose your language" Height="50" Margin="275,100,0,0" Width="250" FontSize="22" Background="Red" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Button x:Name="itfl" Content="" HorizontalAlignment="Left" Height="90" Margin="200,223,0,0" VerticalAlignment="Top" Width="98" BorderBrush="White" Click="itfl_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="italy-samsung.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="pofl" Content="" HorizontalAlignment="Left" Height="90" Margin="500,223,0,0" VerticalAlignment="Top" Width="98" BorderBrush="White" Click="pofl_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="poland-samsung.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="back" Content="" HorizontalAlignment="Left" Height="55" Margin="695,10,0,0" VerticalAlignment="Top" Width="87" BorderBrush="White" Click="back_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="back.png"/>
+            </Button.Background>
+        </Button>
+        <Label Content="(Scegli la tua lingua) / (Wybierz język)" HorizontalAlignment="Left" Height="30" Margin="286,65,0,0" VerticalAlignment="Top" Width="229"/>
+    </Grid>
+</Window>

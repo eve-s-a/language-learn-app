@@ -1,0 +1,29 @@
+﻿<Window x:Class="Newproject.Activity3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Newproject"
+        mc:Ignorable="d"
+        Title="Activity3" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="word3" Content="mineral water" HorizontalAlignment="Left" Height="50" Margin="333,141,0,0" VerticalAlignment="Top" Width="242" FontSize="18"/>
+        <Button x:Name="OK1" Content="OK" HorizontalAlignment="Left" Height="30" Margin="661,336,0,0" VerticalAlignment="Top" Width="75" Background="Red" Opacity="0" Click="OK1_Click"/>
+        <Label x:Name="Lscorec" Content="Correct!" HorizontalContentAlignment="Center" Height="28" Margin="59,283,642.333,109.667" VerticalContentAlignment="Center" Width="92" Opacity="0" Foreground="#FF39FF00"/>
+        <Label x:Name="Lscorei" Content="Incorrect..." HorizontalContentAlignment="Center" Height="40" Margin="59,311,642.333,69.667" VerticalContentAlignment="Center" Opacity="0" Foreground="Red"/>
+        <TextBox x:Name="Timer" HorizontalAlignment="Left" Height="50" Margin="10,10,0,0" TextWrapping="Wrap" Text="timer" VerticalAlignment="Top" Width="78"/>
+        <Button x:Name="back" Content="" HorizontalAlignment="Left" Height="55" Margin="695,10,0,0" VerticalAlignment="Top" Width="87" BorderBrush="White" Click="back_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="back.png"/>
+            </Button.Background>
+        </Button>
+        <Image x:Name="bi1" HorizontalAlignment="Left" Height="64" Margin="227,336,0,0" VerticalAlignment="Top" Width="81" Source="mineralwater.jpg" RenderTransformOrigin="0.522,0.602" Stretch="Fill"/>
+        <Image x:Name="bi2" HorizontalAlignment="Left" Height="64" Margin="333,336,0,0" VerticalAlignment="Top" Width="87" Source="milk.jpg" Stretch="Fill"/>
+        <Image x:Name="bi3" HorizontalAlignment="Left" Height="64" Margin="443,336,0,0" VerticalAlignment="Top" Width="82" Source="teawithlemon.jpg" Stretch="Fill"/>
+        <Button x:Name="bo1" Content="" HorizontalAlignment="Left" Height="64" Margin="227,336,0,0" VerticalAlignment="Top" Width="81" Click="bo1_Click" Background="{x:Null}"/>
+        <Button x:Name="bo2" Content="" HorizontalAlignment="Left" Height="64" Margin="333,336,0,0" VerticalAlignment="Top" Width="87" Click="bo2_Click" Background="{x:Null}"/>
+        <Button x:Name="bo3" Content="" HorizontalAlignment="Left" Height="64" Margin="443,336,0,0" VerticalAlignment="Top" Width="82" Click="bo3_Click" Background="{x:Null}"/>
+        <Image x:Name="yay" HorizontalAlignment="Left" Height="113" Margin="59,135,0,0" VerticalAlignment="Top" Width="131" Source="729d53ac6b07859c758449e2e0f2b57f.jpg" Opacity="0"/>
+        <Button x:Name="start" Content="start" HorizontalAlignment="Left" Height="28" Margin="10,80,0,0" VerticalAlignment="Top" Width="58" Click ="start_Click" Background="Red"/>
+    </Grid>
+</Window>

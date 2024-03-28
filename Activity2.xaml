@@ -1,0 +1,23 @@
+﻿<Window x:Class="Newproject.Activity2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Newproject"
+        mc:Ignorable="d"
+        Title="Activity2" Height="450" Width="800">
+    <Grid>
+        <Image x:Name="mineralwaterimage" HorizontalAlignment="Left" Height="113" Margin="333,28,0,0" VerticalAlignment="Top" Width="131" Source="mineralwater.jpg"/>
+        <TextBox x:Name="TB_Answer" HorizontalContentAlignment="Center" Height="42" Margin="366,279,348,98" TextWrapping="Wrap" Text="Answer" VerticalContentAlignment="Center"/>
+        <Button x:Name="submit3" Content="Submit" HorizontalAlignment="Left" Height="29" Margin="376,339,0,0" VerticalAlignment="Top" Width="57" Click="submit3_Click" Background="Red" Opacity="100"/>
+        <Label x:Name="Lscorec" Content="Correct!" HorizontalContentAlignment="Center" Height="28" Margin="59,283,642.333,109.667" VerticalContentAlignment="Center" Width="92" Opacity="0" Foreground="#FF39FF00"/>
+        <Label x:Name="Lscorei" Content="Incorrect..." HorizontalContentAlignment="Center" Height="40" Margin="59,311,642.333,69.667" VerticalContentAlignment="Center" Opacity="0" Foreground="Red"/>
+        <Button x:Name="OK2" Content="OK" HorizontalAlignment="Left" Height="30" Margin="661,336,0,0" VerticalAlignment="Top" Width="75" Background="Red" Opacity="0" Click="OK2_Click"/>
+        <Button x:Name="back" Content="" HorizontalAlignment="Left" Height="55" Margin="695,10,0,0" VerticalAlignment="Top" Width="87" BorderBrush="White" Click="back_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="back.png"/>
+            </Button.Background>
+        </Button>
+        <Image x:Name="yay" HorizontalAlignment="Left" Height="113" Margin="59,135,0,0" VerticalAlignment="Top" Width="131" Source="729d53ac6b07859c758449e2e0f2b57f.jpg" Opacity="0"/>
+    </Grid>
+</Window>

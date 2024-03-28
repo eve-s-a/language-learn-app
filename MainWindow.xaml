@@ -1,0 +1,15 @@
+﻿<Window x:Name="MainWindow1" x:Class="Newproject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Newproject"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="ayas_" Content="Are you a student?" Height="50" Margin="275,100,0,0" Width="250" FontSize="22" Background="Red" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Button x:Name="y1" Content="Yes" HorizontalAlignment="Left" Height="40" Margin="373,200,0,0" VerticalAlignment="Top" Width="60" Background="Red" Foreground="White" Cursor="Arrow" Click="y1_Click"/>
+        <Button x:Name="n1" Content="No" HorizontalAlignment="Left" Height="40" Margin="373,280,0,0" VerticalAlignment="Top" Width="60" Background="Red" Foreground="White" Cursor="Arrow" Click="Button_Click"/>
+        <Label Content="(Sei uno studente?) / (Jesteś studentem?)" HorizontalAlignment="Left" Height="30" Margin="286,65,0,0" VerticalAlignment="Top" Width="229"/>
+    </Grid>
+</Window>
